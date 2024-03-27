@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    min-height: 100%;
+}
+
+body{
+    height: 100%;
+}
+
+.wrapper{
+    display: flex;
+    flex-flow: column;
+}
+
+main{
+    display: flex;
+    
+}
+
+.nav{
+    display: flex;
+    flex-flow: column;
+    width: 30%;
+    padding: 3em;
+}
+
+.content{
+    display: flex;
+    flex-flow: column;
+    width: 70%;
+}
+
+
+
+.hero{
+    font-size: 4rem;
+}
